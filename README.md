@@ -29,13 +29,13 @@ The application runs on a user's mobile device and provides the following featur
 
 When in **Music Mode**, lighting adjusts based on the music genre.
 
-### 2️⃣ Central Control System (🖥️)
+### 2️⃣ Central Control System (🍓)
 - Hardware : Raspberry Pi 4B
 - Acts as an intermediary between the Application and Light System.
 - Uses AI to analyze behavior (camera) and music (microphone) to generate lighting control signals.
 - Facilitates communication between Application, Cloud Server, and Light System.
 
-### 3. Cloud Server
+### 3️⃣ Cloud Server (☁️)
 - Deployed on **Google Cloud Platform (GCP)** as an **IaaS** solution.
 - Provides user authentication and personalized AI models using fine-tuning.
 - Stores and manages:
@@ -47,7 +47,7 @@ When in **Music Mode**, lighting adjusts based on the music genre.
 2. Once sufficient data is gathered, AI models are retrained.
 3. The updated model is deployed to the Central Control System.
 
-### 4. Light System
+### 4️⃣ Light System (💡)
 - Operates based on received control signals.
 - Adjusts lighting to match user behavior and environmental conditions.
 - Provides ambient lighting enhancements based on user preferences.
